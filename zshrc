@@ -22,3 +22,5 @@ if [[ -s "${ZDOTDIR:-$HOME}/.aliasrc" ]]; then
 fi
 
 # Customize to your needs...
+ eval "$(thefuck --alias)"
+ eval "$(thefuck --alias FUCK)"
