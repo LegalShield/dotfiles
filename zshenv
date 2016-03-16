@@ -80,3 +80,8 @@ fpath=($fpath ${ZDOTDIR:-$HOME}/.zsh-themes)
 # Add Boxen git completions
 #
 zstyle ':completion:*:*:git:*' source /opt/boxen/homebrew/share/zsh/site-functions/_git
+
+#
+# Configure BrewCask
+#
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"

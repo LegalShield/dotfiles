@@ -221,3 +221,4 @@ autocmd BufWritePre *.coffee,*.rb,*.yml,*.js,*.css,*.less,*.sass,*.scss,*.html,*
 " java & php
 autocmd BufWritePre *.java,*.php call StripTrailingWhitespace()
 
+set nowrap

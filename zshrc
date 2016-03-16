@@ -14,7 +14,9 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
-[[ -s "${ZDOTDIR:-$HOME}/.tmuxinator/scripts/tmuxinator" ]] && source "${ZDOTDIR:-$HOME}/.tmuxinator/scripts/tmuxinator"
+if [[ -s "${ZDOTDIR:-$HOME}/.tmuxinator/scripts/tmuxinator" ]]; then
+  source "${ZDOTDIR:-$HOME}/.tmuxinator/scripts/tmuxinator"
+fi
 
 if [[ -s "${ZDOTDIR:-$HOME}/.aliasrc" ]]; then
   source "${ZDOTDIR:-$HOME}/.aliasrc"
