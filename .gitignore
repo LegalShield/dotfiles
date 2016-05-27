@@ -4,4 +4,3 @@
 custom.vim
 *.sw[nomp]
 .*DS_Store
-vim/bundle/*
