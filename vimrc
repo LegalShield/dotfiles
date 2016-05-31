@@ -1,36 +1,39 @@
-" This needs to be off for Vundle, turned back on after
+set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/src/dotfiles/vim/bundle/vundle/
+call vundle#begin()
 
 " let Vundle manage Vundle - required!
-Bundle 'gmarik/vundle'
+Plugin 'VundleVim/Vundle.vim'
 
 " Vim Plugins
-Bundle 'Lokaltog/vim-powerline'
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'cakebaker/scss-syntax.vim'
-Bundle 'ervandew/screen'
-Bundle 'ervandew/supertab'
-Bundle 'fholgado/minibufexpl.vim'
-Bundle 'godlygeek/tabular'
-Bundle 'groenewege/vim-less'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'kien/ctrlp.vim'
-Bundle 'nviennot/molokai'
-Bundle 'quentindecock/vim-cucumber-align-pipes'
-Bundle 'rodjek/vim-puppet'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'scrooloose/nerdtree'
-Bundle 'scrooloose/syntastic'
-Bundle 'tomtom/quickfixsigns_vim'
-Bundle 'tpope/vim-endwise'
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-rails'
-Bundle 'vim-ruby/vim-ruby'
-Bundle 'digitaltoad/vim-jade'
-Bundle 'rking/ag.vim'
+Plugin 'Lokaltog/vim-powerline'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'cakebaker/scss-syntax.vim'
+Plugin 'ervandew/screen'
+Plugin 'ervandew/supertab'
+Plugin 'fholgado/minibufexpl.vim'
+Plugin 'godlygeek/tabular'
+Plugin 'groenewege/vim-less'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'kien/ctrlp.vim'
+Plugin 'nviennot/molokai'
+Plugin 'quentindecock/vim-cucumber-align-pipes'
+Plugin 'rodjek/vim-puppet'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/syntastic'
+Plugin 'tomtom/quickfixsigns_vim'
+Plugin 'tpope/vim-endwise'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-rails'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'digitaltoad/vim-jade'
+Plugin 'rking/ag.vim'
+
+call vundle#end()
+filetype plugin indent on
 
 " COLORS
 
