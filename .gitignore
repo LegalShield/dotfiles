@@ -5,4 +5,5 @@ custom.vim
 *.sw[nomp]
 .*DS_Store
 vim/bundle/*
+vim/plugin/*
 !vim/bundle/vundle
