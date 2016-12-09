@@ -27,3 +27,6 @@ export PATH=~/Library/Android/sdk/platform-tools:~/Library/Android/sdk/tools/pro
 #Allow History Substring Search With Up/Down nd UP and DOWN arrow keys
 bindkey "^[[A" history-substring-search-up
 bindkey "^[[B" history-substring-search-down
+
+export PATH="$HOME/.bin:$PATH"
+eval "$(rbenv init - --no-rehash)"

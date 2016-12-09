@@ -31,6 +31,8 @@ Plugin 'tpope/vim-rails'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'rking/ag.vim'
+Plugin 'leafgarland/typescript-vim'
+Plugin 'tpope/vim-surround'
 
 call vundle#end()
 filetype plugin indent on
