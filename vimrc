@@ -33,6 +33,7 @@ Plugin 'digitaltoad/vim-jade'
 Plugin 'rking/ag.vim'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'tpope/vim-surround'
+Plugin 'briancollins/vim-jst'
 
 call vundle#end()
 filetype plugin indent on
