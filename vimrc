@@ -34,6 +34,7 @@ Plugin 'rking/ag.vim'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'tpope/vim-surround'
 Plugin 'briancollins/vim-jst'
+Plugin 'blockloop/vim-swigjs'
 
 call vundle#end()
 filetype plugin indent on
